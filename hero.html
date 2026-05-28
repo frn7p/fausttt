@@ -1,0 +1,125 @@
+<head>
+    <title>Герои</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #0e0e0e;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #d1cfcf;
+            padding: 24px;
+        }
+        h2{
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 28px;
+            color: #d6b5a0;
+            border-left: 3px solid #7a2e2e;
+            padding-left: 15px;
+            margin-bottom: 24px;
+        }
+        .karta{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+        .geroi{
+            background-color: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            transition: 0.2s;
+        }
+        .geroi:hover{
+            border-color: #7a2e2e;
+            transform: translateY(-3px);
+        }
+        .photo{
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 16px auto;
+            background: #2a2a2a;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #7a2e2e;
+        }
+        .photo img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .geroi h3{
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 22px;
+            color: #d6b5a0;
+            margin-bottom: 8px;
+        }
+        .rol{
+            font-size: 12px;
+            color: #9e6b6b;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        .geroi p{
+            font-size: 14px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <h2>Герои</h2>
+    <div class="karta">
+        <div class="geroi">
+            <div class="photo">
+                <img src="фаустт.jpg" alt="Фауст">
+            </div>
+            <h3>Генрих Фауст</h3>
+            <div class="rol">Учёный · Главный герой</div>
+            <p>Разочарованный в науке, заключает сделку с дьяволом в поисках смысла жизни. В финале его душа спасается благодаря вечному стремлению.</p>
+        </div>
+         <div class="geroi">
+            <div class="photo">
+                <img src="мефистофель.jpg" alt="Мефистофель">
+            </div>
+            <h3>Мефистофель</h3>
+            <div class="rol">Дьявол · Дух отрицания</div>
+            <p>Циничный и остроумный, заключает пари с Господом. Помогает Фаусту, но в финале проигрывает — душа Фауста ускользает от него.</p>
+        </div>
+        <div class="geroi">
+            <div class="photo">
+                <img src="гретхен.jpg" alt="Гретхен">
+            </div>
+            <h3>Маргарита (Гретхен)</h3>
+            <div class="rol">Возлюбленная Фауста</div>
+            <p>Простая девушка. Её любовь к Фаусту приводит к трагедии. В конце первой части её душа получает прощение.</p>
+        </div>
+        <div class="geroi">
+            <div class="photo">
+                <img src="вагнер.jpg" alt="Вагнер">
+            </div>
+            <h3>Вагнер</h3>
+            <div class="rol">Ученик Фауста</div>
+            <p>Учёный-педант, противоположность Фауста. Во второй части создаёт Гомункула — искусственного человечка в колбе.</p>
+        </div>
+        <div class="geroi">
+            <div class="photo">
+                <img src="елена.jpg" alt="Елена Прекрасная">
+            </div>
+            <h3>Елена Прекрасная</h3>
+            <div class="rol">Символ античности</div>
+            <p>Появляется во второй части. Фауст соединяется с ней — это символический брак германского и античного начал.</p>
+        </div>
+        <div class="geroi">
+            <div class="photo">
+                <img src="бог.jpg" alt="Господь">
+            </div>
+            <h3>Господь</h3>
+            <div class="rol">Символ добра и веры в человека</div>
+            <p>В «Прологе на небесах» верит в Фауста и заключает пари с Мефистофелем. Именно его вера спасает душу Фауста в финале.</p>
+        </div>
+    </div>
+</body>
+</html>
